@@ -11,3 +11,5 @@ graph LR
     world-handler --> game-sqlgine;
     world-viewer --> world-handler;
 ```
+
+Each of the elements from the diagram (expect Player) is going to be developed as a microservice that I am going to deploy on my minikube environment. Each of the microservice will have it's own README file and (hopefully) some docs.
